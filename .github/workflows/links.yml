@@ -20,4 +20,4 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2.6.1
         with:
-          args: '--verbose --no-progress ./**/*.md --fail-if-empty=false'
+          args: '--verbose --no-progress ./**/*.md -- --fail-if-empty=false'
